@@ -47,3 +47,32 @@ img {
   clear: both;
   float:right
 }
+#playershandbook {
+  size: 15%;
+  text-align: left;
+  width: 15%;
+  float: left;
+}
+#monstermanual {
+  size: 15%;
+  text-align: right;
+  float: right;
+  width: 15%;
+}
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row {
+  display: flex;
+}
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
