@@ -1,3 +1,53 @@
+@font-face {
+  font-family: "Quentincaps";
+  src: url(./fonts/Quentincaps-owxKz.ttf);
+}
+@font-face {
+  font-family: "draconis";
+  src: url(./fonts/Draconis-JRw6B.ttf);
+}
+@font-face {
+  font-family:'fire';
+  src: url(./fonts/BreatheFireIii-PKLOB.ttf);
+}
+
 body {
-    background: blue;
-  }
+  background-image: url(./images/dnd\ website\ background.jpg);
+  background-repeat:no-repeat;
+  background-position: auto;
+  background-size: cover;
+  background-attachment: scroll;
+}
+
+header {
+  font-family: "Quentincaps";
+  text-align: center;
+  font-size: 385%;
+  color: rgb(255, 217, 0)
+}
+h1 {
+  color: rgb(255, 255, 255);
+  font-family: 'draconis';
+  font-style: italic;
+  font-size: 300%;
+}
+h2 {
+  color: white;
+  font-family: 'draconis';
+  font-style:italic;
+  font-size:200%; ;
+}
+p{
+  font-family: 'draconis';
+  font-display: block;
+  color: rgb(255, 255, 255);
+  font-size: 165%;
+  background-color: rgba(236, 11, 11, 0.322);
+}
+img {
+  height: auto;
+  width: 25%;
+  margin: 0 0 0 15px;
+  clear: both;
+  float:right
+}
