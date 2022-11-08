@@ -6,10 +6,6 @@
   font-family: "draconis";
   src: url(./fonts/Draconis-JRw6B.ttf);
 }
-@font-face {
-  font-family:'fire';
-  src: url(./fonts/BreatheFireIii-PKLOB.ttf);
-}
 
 body {
   background-image: url(./images/dnd\ website\ background.jpg);
