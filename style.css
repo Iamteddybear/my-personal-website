@@ -12,7 +12,18 @@ body {
   background-repeat:no-repeat;
   background-position: auto;
   background-size: cover;
-  background-attachment: scroll;
+  background-attachment: fixed;
+}
+a {font-family: 'draconis';
+  font-display: block;
+  color: rgb(255, 255, 255);
+  font-size: 100%;
+}
+#garylink {
+  font-family: 'draconis';
+  font-display: block;
+  color: rgb(255, 255, 255);
+  font-size: 165%;
 }
 
 header {
