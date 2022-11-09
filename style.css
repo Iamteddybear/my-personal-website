@@ -33,6 +33,17 @@ h2 {
   font-style:italic;
   font-size:200%; ;
 }
+h3 {
+  color: white;
+  font-family: 'draconis';
+  font-style:italic;
+  font-size:200%; ; 
+}
+ul {
+  font-size: 200%;
+  font-family: 'draconis';
+  color:white
+}
 p{
   font-family: 'draconis';
   font-display: block;
