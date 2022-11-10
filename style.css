@@ -75,7 +75,7 @@ p {
   font-display: block;
   color: rgb(255, 255, 255);
   font-size: 165%;
-  background-color: rgba(32, 28, 101, 0.571);
+  background-color: rgba(21, 21, 85, 0.736);
 }
 
 img {
@@ -133,10 +133,14 @@ table,
 th,
 td,
 tr {
-  border: 2px solid;
+  border: 5px solid;
   padding: 15px;
   text-align: center;
   color: white;
+  font-family: 'draconis';
+  height: 35px;
+  width: max-content;
+  background-color: rgba(114, 114, 240, 0.736);
 
 }
 tr:hover {
@@ -155,4 +159,23 @@ div.container {
 ol.myOL {
   display: inline-block;
   text-align: left;
+}
+footer {
+  width: 100%;
+}
+footer nav{
+  float: left;
+}
+footer nav ul {
+  margin-top: 73px;
+}
+footer nav ul li {
+  display: inline-block;
+  margin-left: 20px;
+  list-style: none;
+}
+footer nav ul li a {
+  font-family: 'draconis';
+  font-weight: 400;
+  font-size: 22px;
 }
