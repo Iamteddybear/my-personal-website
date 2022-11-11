@@ -133,6 +133,7 @@ table,
 th,
 td,
 tr {
+  font-size: x-large;
   border: 5px solid;
   padding: 15px;
   text-align: center;
@@ -140,11 +141,10 @@ tr {
   font-family: 'draconis';
   height: 35px;
   width: max-content;
-  background-color: rgba(114, 114, 240, 0.736);
-
+  background-color: rgba(81, 81, 154, 0.736);
 }
 tr:hover {
-  background-color: rgba(21, 21, 85, 0.736);
+  background-color: rgba(6, 6, 58, 0.736);
 }
 .center {
   margin-left: auto;
